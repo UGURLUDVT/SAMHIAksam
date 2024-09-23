@@ -89,6 +89,8 @@
 // NTALYAA
 // ANTALYA
 
+// DavutPC tarqafından eklendi
+
 // Soru: Kelime dışarıdan girildiğinde bu şekilde piglatin döngüsünü 
 // gösteren programı yazınız. 
 
@@ -112,3 +114,5 @@ for (int i = 0; i < kelime.Length; i++)
     string strSubKelime = kelime.Substring(0, i + 1);
     Console.WriteLine(strSubKelime);
 }
+
+Console.ReadLine();
